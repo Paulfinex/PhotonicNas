@@ -1,0 +1,32 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore log files
+*.log
+
+# Ignore data files
+data/
+Dataset/
+Docs/
+lightning_logs/
+vm/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the `.idea` directory (for JetBrains IDEs like PyCharm)
+.idea/
+
+# Ignore the `node_modules` directory (for Node.js projects)
+node_modules/
