@@ -1,0 +1,7 @@
+experimentName: PhotonicNAS
+trialConcurrency: 1
+maxExecDuration: 10h
+maxTrialNum: 10
+trainingService:
+  platform: local
+  useActiveGpu: true
