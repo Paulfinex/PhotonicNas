@@ -20,6 +20,7 @@ Dataset/
 Docs/
 lightning_logs/
 vm/
+checkpoints/
 
 # Ignore OS-specific files
 .DS_Store
