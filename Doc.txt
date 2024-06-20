@@ -1,0 +1,4 @@
+Fix needed:
+
+-Loss goes to Nan.0 instantly when using PhotonicSigmoid instead of ReLU
+	-Clamping?
