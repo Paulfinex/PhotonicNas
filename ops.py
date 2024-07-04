@@ -42,6 +42,7 @@ class SepConv(nn.Module):
         
 class PhotonicSigmoid(nn.Module):
     def forward(self, x):
+        #x = torch.clamp(x, min=-10, max=10)
         tmp = torch.exp((x - 0.145) / 0.073)
         tmp = 1.005 + (0.06 - 1.005) / (1 + tmp)
         return tmp.float()
